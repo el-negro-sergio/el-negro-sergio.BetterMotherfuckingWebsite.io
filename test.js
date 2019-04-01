@@ -1,9 +1,17 @@
-setTimeout(MyFunction, 10000);
 
-function MyFunction(){
-	alert('Hey le site xxxvidsxxx est trop bien. Viens dessus stp please');
-}
+  <script type="text/javascript">
 
-function changeBGC(color){
-document.bgColor = '#FF444FF';
-}
+  setTimeout(pop,10000);
+
+  function pop() {
+
+    if (window.confirm("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")) {
+
+      window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    }
+
+  }
+
+
+
+  </script>
